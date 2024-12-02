@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touch Grass</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Ubuntu:wght@300;500;700&display=swap");
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <img id="grass-header" src="images/grass.png" alt="grass banner" />
+    </header>
+
+    <header>
+      <img id="infosnack-img" src="images/infosnack.png" alt="infosnack" />
+      <button id="infosnack" onclick="window.location.href='granola.html'">
+        Snack on this info!
+      </button>
+    </header>
+
+    <h1>Go touch grass 🍃</h1>
+
+    <h2>⬇️ This is you ⬇️</h2>
+    <img
+      id="grass-status-img"
+      src="images/grass-not-touched.png"
+      alt="grass-not-touched image"
+    />
+
+    <div class="stats">
+      <h2>Stats</h2>
+      <div id="grass-points">Grass points: Loading...</div>
+      <div id="last-touched">Last touched grass: Loading...</div>
+    </div>
+
+    <div class="generate-img">Go outside and then</div>
+    <button id="generate-img-btn">Click me!</button>
+  </body>
+</html>
